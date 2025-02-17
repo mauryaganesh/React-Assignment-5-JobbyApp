@@ -1,0 +1,250 @@
+.job-item-details-container {
+  display: flex;
+  justify-content: center;
+  background-color: #000000;
+  padding-top: 32px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-details-container {
+    padding-top: 64px;
+  }
+}
+
+.job-details-success-view {
+  width: 90%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .job-details-success-view {
+    width: 80%;
+    max-width: 1110px;
+  }
+}
+
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #272727;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.job-details-company-log-role-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-details-company-logo {
+  width: 40px;
+  align-self: flex-start;
+}
+
+.job-details-role-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.job-details-role-title {
+  color: #ffffff;
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.job-details-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-details-star-icon {
+  color: #fbbf24;
+}
+
+.job-details-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.job-details-other-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.job-details-location-and-type-container {
+  display: flex;
+}
+
+.job-details-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.job-details-location-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.job-details-location {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.job-details-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.job-details-type-icon {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.job-details-type {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.job-details-package {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.job-details-description-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details-heading-and-link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-details-description-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.visit-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #6366f1;
+  font-weight: 500;
+}
+
+.job-details-description {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.job-details-skills-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-details-skills-items-container {
+  padding: 0;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skill-item {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.skill-img {
+  width: 30px;
+}
+.skill-name {
+  color: #ffffff;
+
+  font-family: 'Roboto';
+  margin-left: 10px;
+  font-weight: 400;
+}
+.job-details-life-at-company-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.similar-jobs-heading {
+  color: #ffffff;
+}
+
+.similar-jobs-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .similar-jobs-list {
+    flex-direction: row;
+    margin-top: 24px;
+  }
+}
+
+.job-details-failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.job-details-failure-view-image {
+  width: 300px;
+}
+
+.job-details-failure-view-error {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+
+.job-details-failure-view-message {
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 200;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+
+.job-details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.job-item-horizontal-line {
+  height: 2px;
+  width: 100%;
+  background-color: #475569;
+  border: none;
+}
